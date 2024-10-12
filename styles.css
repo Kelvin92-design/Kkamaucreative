@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2980B9;
+    font-weight: bold;
+}
+
+/* Rollovers for Menu Links */
+.menu a:hover {
+    color: #3498DB;
+}
+
+.content {
+    padding: 20px;
+    background-color: #ECF0F1;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 90%;
+}
+
+/* Social Media List Styling */
+.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Make Footer Social Media Links White */
+.social-media li a {
+    color: white; /* Ensures the footer text is white */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media li a:hover {
+    text-decoration: underline; /* Adds a hover effect (rollover) */
+}
+
+/* Drop-down Menu Styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
